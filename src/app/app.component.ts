@@ -13,7 +13,7 @@ export class AppComponent {
           type: 'server',
           name: serverData.serverName,
           content: serverData.serverContent
-        }); 
+        });  
       }
     
   onBlueprintAdded(blueprintData: {serverName: string, serverContent: string}) {
